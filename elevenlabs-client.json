@@ -1,0 +1,13 @@
+{
+  "client_id": "https://elecboy97.github.io/ai-usage-meter-oauth/elevenlabs-client.json",
+  "client_name": "AI Usage Meter (personal desktop widget)",
+  "redirect_uris": [
+    "http://127.0.0.1:43217/callback",
+    "http://127.0.0.1/callback",
+    "http://localhost/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "user_read"
+}
